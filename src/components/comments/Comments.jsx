@@ -9,6 +9,7 @@ import CommentsList from "../comments/CommentsList";
 import { useParams } from "react-router-dom";
 
 const Comments = () => {
+  // welcome to comments
   const { id } = useParams();
   const [isAddingComment, setIsAddingComment] = useState(false);
   const {
